@@ -1,0 +1,258 @@
+/*Global styles*/
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Josefin+Slab:400,700&display=swap');
+
+:root {
+    --color1: #F9F4F5;
+    --color2: #663399;
+    --color3: hsla(0, 0%, 16%, 0.9);
+}
+
+body {
+    margin: 0px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 22px;
+    line-height: 150%;
+    color: var(--color1);
+    background-color: var(--color2);
+    box-sizing: border-box;
+    
+    
+}
+
+
+#pages {
+    background-color: var(--color1);
+    color: var(--color3);
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.content {
+    max-width: 960px;
+    margin: auto;
+    padding-top: 100px;
+}
+.content__text {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Amatic SC', san-serif;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+/*Header*/
+
+header {
+    background-color: var(--color2);
+    margin: 0px;
+    padding: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo a:hover {
+    text-decoration: none;
+}
+
+/*Icons Layout*/
+
+
+
+.container__icons {
+    display: grid;
+    grid-template-columns: repeat(10, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, minmax(80px, 1fr));
+    gap: 20px;
+}
+
+.container__icons img{
+    width: 80%
+}
+
+
+.tuli {
+    grid-column: 3;
+    grid-row: 1;
+}
+.notsu {
+    grid-column: 4 / span 2;
+    grid-row: 1;
+    width: 70%;
+}
+.sealo {
+    grid-column: 6 / span 2;
+    grid-row: 1;
+}
+.kott {
+    grid-column: 9;
+    grid-row: 1;
+}
+.kink {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    width: 80%;
+}
+.spiku {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+    width: 70%;
+}
+.qr {
+    grid-column: 4;
+    grid-row: 2;
+}
+.k2si {
+    grid-column: 5 / span 2;
+    grid-row: 2;
+}
+.mandala {
+    grid-column: 7;
+    grid-row: 2;
+    width: 170%;
+}
+.mina  {
+    grid-column: 9;
+    grid-row: 2;
+    width: 80%;
+}
+
+
+/*transform: scale(0.4) rotate(-5deg) translateY(55vh) translateX(15vh);*/
+
+/* Icon animation*/
+
+/*.icon {
+    animation-delay: 1.59251s;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-name: icon;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}*/
+
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+
+.kink {
+	
+	transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    
+	
+}
+.tuli {
+	
+	transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    animation-delay: 1.59251s;
+	
+}
+.notsu {
+	
+	transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    animation-delay: 2.49251s;
+	
+}
+.sealo {
+	
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	animation-delay: 1.39251s;
+}
+.kott {
+	
+	transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    animation-delay: 1.99251s;
+	
+}
+.spiku {
+	
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	animation-delay: 1.09251s;
+}
+.qr {
+	
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	animation-delay: 0.69251s;
+}
+.k2si {
+	
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	animation-delay: 0.39251s;
+}
+.mandala {
+	
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	animation-delay: 2.29251s;
+}
+.mina {
+	
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	animation-delay: 0.19251s;
+}
+
+
+
+a {
+    color: var(--color1);
+    /*font-weight: bold;*/
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+
+/*Footer*/
+footer {
+    background-color: var(--color2);
+    color: var(--color1);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 70px;
+    margin-top: 50px;
+}
+footer a{
+    font-weight: normal;
+    color: var(--color1);
+    opacity: 0.5;
+}
