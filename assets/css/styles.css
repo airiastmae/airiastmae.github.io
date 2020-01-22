@@ -38,20 +38,50 @@ section {
     display: block;
 }*/
 
-#emps {
+/*.emps {
+    width: 60%;
+}*/
+
+.emps__content {
     display: flex;
+    justify-content: space-between;
+    
+}
+.emps__content__item{
+    width: 100%;
+    padding: 20px;
 }
 
+
+/*
+.font {
+    border: 1px solid var(--color3);
+}
+.poster {
+    padding: 20px;
+}*/
+
+
+.emps__headlines {
+    display: flex;
+    justify-content: space-around;
+}
 
 #ABmockup {
     color: var(--color3);
 }
 
 
-#ABmockup a:hover{                         /*miks ei tööta!*/
+#ABmockup a:hover {                         /*miks ei tööta!*/
     text-decoration: underline;
 }
 
+
+.mockup__style {
+    font-size: 14px;
+    opacity: 65%;
+    line-height: 0%;
+}
 
 .link_style a:hover{                         /*miks ei tööta!*/
     text-decoration: underline;
@@ -61,7 +91,12 @@ section {
     color: var(--color3);
 }
 
-
+.visitka {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 30%;
+    justify-content: space-between;
+}
 
 
 .pics__headline {
@@ -107,6 +142,7 @@ header {
     background-color: var(--color2);
     margin: 0px;
     padding: 50px;
+    padding-bottom: 130px;
     height: 40px;
     display: flex;
     justify-content: center;
