@@ -11,7 +11,7 @@
 body {
     margin: 0px;
     font-family: 'Josefin Slab', serif;
-    font-size: 21px;
+    font-size: 24px;
     line-height: 150%;
     color: var(--color1);
     background-color: var(--color2);
@@ -26,8 +26,58 @@ body {
     color: var(--color3);
 }
 
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*.instagram-media {     ei töööööööta!
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}*/
+
+#emps {
+    display: flex;
+}
+
+
+#ABmockup {
+    color: var(--color3);
+}
+
+
+#ABmockup a:hover{                         /*miks ei tööta!*/
+    text-decoration: underline;
+}
+
+
+.link_style a:hover{                         /*miks ei tööta!*/
+    text-decoration: underline;
+}
+
+.link_style {
+    color: var(--color3);
+}
+
+
+
+
+.pics__headline {
+    font-size: 18px;
+    text-align: left;
+}
+
+img .pics__fonts {
+    width: 20%;                                  /*miks ei tööta!*/
+    height: auto;
+}
+
 img {
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
 }
 
@@ -46,6 +96,8 @@ h1, h2, h3, h4 {
     margin: 0;
     text-align: center;
 }
+
+
 
 
 
@@ -168,59 +220,59 @@ header .logo a:hover {
 .tuli {
 	
 	transform: translatey(0px);
-    animation: float 6s ease-in-out infinite;
-    animation-delay: 1.59251s;
+    animation: float 7s ease-in-out infinite;
+    animation-delay: 0.09251s;
 	
 }
 .notsu {
 	
 	transform: translatey(0px);
-    animation: float 6s ease-in-out infinite;
-    animation-delay: 2.49251s;
+    animation: float 5s ease-in-out infinite;
+    animation-delay: 0.00251s;
 	
 }
 .sealo {
 	
 	transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
-	animation-delay: 1.39251s;
+	animation: float 9s ease-in-out infinite;
+	animation-delay: 0.08251s;
 }
 .kott {
 	
 	transform: translatey(0px);
-    animation: float 6s ease-in-out infinite;
-    animation-delay: 1.99251s;
+    animation: float 5s ease-in-out infinite;
+    animation-delay: 0.07251s;
 	
 }
 .spiku {
 	
 	transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
-	animation-delay: 1.09251s;
+	animation: float 4s ease-in-out infinite;
+	animation-delay: 0.06251s;
 }
 .qr {
 	
 	transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
-	animation-delay: 0.69251s;
+	animation: float 7s ease-in-out infinite;
+	animation-delay: 0.05251s;
 }
 .k2si {
 	
 	transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
-	animation-delay: 0.39251s;
+	animation: float 9s ease-in-out infinite;
+	animation-delay: 0.04251s;
 }
 .mandala {
 	
 	transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
-	animation-delay: 2.29251s;
+	animation: float 7s ease-in-out infinite;
+	animation-delay: 0.03251s;
 }
 .mina {
 	
 	transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
-	animation-delay: 0.19251s;
+	animation: float 4s ease-in-out infinite;
+	animation-delay: 0.02251s;
 }
 
 
