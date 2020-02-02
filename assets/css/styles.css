@@ -345,3 +345,208 @@ footer a{
     color: var(--color1);
     opacity: 0.5;
 }
+
+
+
+
+
+@media (max-width: 1200px) {
+    
+
+    .container__icons {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(80px, 1fr));
+        grid-template-rows: repeat(4, minmax(80px, 1fr));
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-top: 65px;
+    }
+
+
+
+
+
+    .tuli {
+        grid-column: 2;
+        grid-row: 1;
+        width: 80%;
+    }
+    .notsu {
+        grid-column: 3;
+        grid-row: 1;
+        width: 70%;
+    }
+    .sealo {
+        grid-column: 4;
+        grid-row: 1;
+    }
+    .kott {
+        grid-column: 1;
+        grid-row: 2;
+        width: 80%;
+    }
+    .kink {
+        grid-column: 1;
+        grid-row: 1;
+        width: 80%;
+    }
+    .spiku {
+        grid-column: 2;
+        grid-row: 2;
+        width: 70%;
+    }
+    .qr {
+        grid-column: 3;
+        grid-row: 2;
+    }
+    .k2si {
+        grid-column: 4;
+        grid-row: 2;
+    }
+    .mandala {
+        grid-column: 2;
+        grid-row: 3;
+        width: 100%;
+    }
+    .mina  {
+        grid-column: 3;
+        grid-row: 3;
+        width: 80%;
+    }
+  }
+
+
+
+
+
+
+  @media (max-width: 768px) {
+    
+
+    .container__icons {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(80px, 1fr));
+        grid-template-rows: repeat(5, minmax(80px, 1fr));
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding-top: 65px;
+    }
+
+
+
+
+
+    .tuli {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .notsu {
+        grid-column: 3;
+        grid-row: 1;
+        width: 70%;
+    }
+    .sealo {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .kott {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .kink {
+        grid-column: 1;
+        grid-row: 1;
+        width: 80%;
+    }
+    .spiku {
+        grid-column: 3;
+        grid-row: 2;
+        width: 70%;
+    }
+    .qr {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .k2si {
+        grid-column: 2;
+        grid-row: 3;
+    }
+    .mandala {
+        grid-column: 3;
+        grid-row: 3;
+        width: 100%;
+    }
+    .mina  {
+        grid-column: 2;
+        grid-row: 4;
+        width: 80%;
+    }
+  }
+
+
+  @media (max-width: 460px) {
+    
+
+    .container__icons {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(11, minmax(80px, 1fr));
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+        padding-top: 65px;
+    }
+
+
+
+
+
+    .tuli {
+        grid-column: 1;
+        grid-row: 2;
+        width: 70%;
+    }
+    .notsu {
+        grid-column: 1;
+        grid-row: 3;
+        width: 70%;
+    }
+    .sealo {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .kott {
+        grid-column: 1;
+        grid-row: 5;
+        width: 70%;
+    }
+    .kink {
+        grid-column: 1;
+        grid-row: 1;
+        width: 80%;
+    }
+    .spiku {
+        grid-column: 1;
+        grid-row: 6;
+    }
+    .qr {
+        grid-column: 1;
+        grid-row: 7;
+    }
+    .k2si {
+        grid-column: 1;
+        grid-row: 8;
+    }
+    .mandala {
+        grid-column: 1;
+        grid-row: 9;
+        width: 90%;
+    }
+    .mina  {
+        grid-column: 1;
+        grid-row: 10;
+        width: 80%;
+    }
+  }
