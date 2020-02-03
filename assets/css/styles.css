@@ -4,7 +4,7 @@
 
 :root {
     --color1: #F9F4F5;
-    --color2: #663399;
+     --color2: #663399; /*rebeccapurple */
     --color3: hsla(0, 0%, 16%, 0.9);
 }
 
@@ -30,6 +30,16 @@ body {
 section {
     display: flex;
     flex-wrap: wrap;
+}
+
+.me {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+#me {
+    height: 95vh;
+    width: auto;
 }
 
 /*.instagram-media {     ei töööööööta!
@@ -312,6 +322,11 @@ header .logo a:hover {
 	animation: float 4s ease-in-out infinite;
 	animation-delay: 0.02251s;
 }
+#me {
+    transform: translatey(0px);
+	animation: float 4s ease-in-out infinite;
+	animation-delay: 0.02251s;
+}
 
 
 
@@ -493,6 +508,21 @@ footer a{
 
     .content {
         margin-left: 15px;
+    }
+
+
+    .me {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 4;
+    }
+    #me {
+        grid-row: 2;
+        height: 75vh;
+        padding-bottom: 75px;
+    }
+    .me__text {
+        padding-bottom: 20px;
     }
 
   }
