@@ -183,12 +183,21 @@ header .logo a:hover {
     display: grid;
     grid-template-columns: repeat(10, minmax(100px, 1fr));
     grid-template-rows: repeat(2, minmax(80px, 1fr));
-    gap: 20px;
+    gap: 30px;
     padding-top: 65px;
 }
 
 .container__icons img{
     width: 80%
+}
+
+.icon .icon__link{
+    position:relative;
+    text-align: center;
+    visibility: hidden;
+}
+.icon:hover .icon__link {
+    visibility: visible;
 }
 
 
@@ -313,7 +322,7 @@ header .logo a:hover {
 	
 	transform: translatey(0px);
 	animation: float 7s ease-in-out infinite;
-	animation-delay: 0.05251s;
+	animation-delay: 0.03251s;
 }
 .k2si {
 	
@@ -330,12 +339,12 @@ header .logo a:hover {
 .mina {
 	
 	transform: translatey(0px);
-	animation: float 4s ease-in-out infinite;
+	animation: float 8s ease-in-out infinite;
 	animation-delay: 0.02251s;
 }
 #me {
     transform: translatey(0px);
-	animation: float 4s ease-in-out infinite;
+	animation: float 8s ease-in-out infinite;
 	animation-delay: 0.02251s;
 }
 
