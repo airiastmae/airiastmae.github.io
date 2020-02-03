@@ -483,6 +483,13 @@ footer a{
         grid-row: 4;
         width: 80%;
     }
+
+
+    iframe {
+        width: 460px;
+        height: 750px;
+    }
+
   }
 
 
@@ -549,4 +556,11 @@ footer a{
         grid-row: 10;
         width: 80%;
     }
+
+
+    iframe {
+        width: 300px;
+        height: 600px;
+    }
+
   }
