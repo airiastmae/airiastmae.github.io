@@ -132,15 +132,7 @@ body {
     color: var(--color3);
 }
 
-.visitka {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-.visitka img {
-    width: 45%;
-    height: auto;
-}
+
 
 
 .pics__headline {
@@ -663,6 +655,12 @@ footer a{
         width: 80%;
     }
 
+
+    .icon .icon__link{
+        position:relative;
+        text-align: center;
+        visibility: visible;
+    }
 
     /* iframe {
         width: 300px;
