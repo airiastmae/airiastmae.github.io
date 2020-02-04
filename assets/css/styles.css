@@ -40,25 +40,36 @@ section {
     flex-wrap: wrap;
 }
 
+
 .me {
     display: flex;
     flex-direction: row-reverse;
     padding: 20px;
 }
+.me__grid {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+}
 #me {
-    height: 95vh;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    height: 55vh;
     width: auto;
 }
-
-/*.instagram-media {     ei töööööööta!
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}*/
-
-/*.emps {
-    width: 60%;
-}*/
+/* #me #bulb {
+    position: relative;
+    visibility: hidden;
+}
+#me:hover #bulb{
+    visibility: visible;
+} */
+#bulb {
+    grid-column: 2;
+    grid-row: 1;
+    height: 15vh;
+    width: auto;
+}
 
 .emps__content {
     display: flex;
@@ -141,10 +152,10 @@ img {
     max-width: 960px;
     margin: auto;/*
     margin-left: 5px;*/
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .content__text {
-    padding-top: 100px;
+    padding-top: 10px;
     padding-bottom: 200px;
 }
 
@@ -154,6 +165,10 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
+h2 {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
 
 
 
@@ -342,7 +357,7 @@ header .logo a:hover {
 	animation: float 8s ease-in-out infinite;
 	animation-delay: 0.02251s;
 }
-#me {
+#bulb {
     transform: translatey(0px);
 	animation: float 8s ease-in-out infinite;
 	animation-delay: 0.02251s;
@@ -536,6 +551,10 @@ footer a{
         display: grid;
         grid-template-columns: 1;
         grid-template-rows: 4;
+    }
+    #bulb {
+        grid-column: 1;
+        grid-row: 1;
     }
     #me {
         grid-row: 2;
