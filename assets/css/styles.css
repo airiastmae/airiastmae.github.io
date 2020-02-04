@@ -33,6 +33,22 @@ body {
     background-color: var(--color1);
     color: var(--color3);
 }
+.page__footer {
+    justify-content: left;
+}
+.page {
+   
+    padding-top: 150px;
+   
+    
+}
+#backbutton {
+    /* color: var(--color1); */
+    width: 15vh;
+    height: auto;
+    /* justify-content: left; */
+    margin-left: 50px;
+}
 
 
 section {
@@ -363,6 +379,25 @@ header .logo a:hover {
 	animation-delay: 0.02251s;
 }
 
+@keyframes click {
+	0% {
+		
+		transform: translatex(0px);
+	}
+	50% {
+		
+		transform: translatex(-20px);
+	}
+	100% {
+		
+		transform: translatex(0px);
+	}
+}
+#backbutton {
+    transform: translatex(0px);
+	animation: click 4s ease-in-out infinite;
+	animation-delay: 0.02251s;
+}
 
 
 a {
