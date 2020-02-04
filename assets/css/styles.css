@@ -33,9 +33,9 @@ body {
     background-color: var(--color1);
     color: var(--color3);
 }
-.page__footer {
+/* .page__footer {
     justify-content: left;
-}
+} */
 .page {
    
     padding-top: 150px;
@@ -51,10 +51,6 @@ body {
 }
 
 
-section {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 
 .me {
