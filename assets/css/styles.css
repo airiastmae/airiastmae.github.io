@@ -147,6 +147,16 @@ img {
     margin-right: auto;
     display: block;
 }
+#proto__img {
+    width: 30vw;
+    height: auto;
+    min-width: 300px;
+}
+
+.proto__headline {
+    font-size: 18px;
+    text-align: center;
+}
 
 .content {
     max-width: 960px;
