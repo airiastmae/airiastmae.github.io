@@ -66,13 +66,7 @@ h2 {
 .page {
     padding-top: 150px;
 }
-#backbutton {
-    /* color: var(--color1); */
-    width: 15vh;
-    height: auto;
-    /* justify-content: left; */
-    margin-left: 50px;
-}
+
 
 
 
@@ -270,6 +264,7 @@ img {
     grid-column: 9;
     grid-row: 2;
     width: 80%;
+    z-index: 9000;
 }
 
 @keyframes float {
@@ -397,18 +392,48 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     height: 70px;
     margin-top: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
 }
 footer a{
     font-weight: normal;
     color: var(--color1);
     opacity: 0.5;
 }
+
+/*.page__footer {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}*/
+
+#backbutton {
+    /* color: var(--color1); */
+    width: 15vh;
+    height: auto;
+    /* justify-content: left; */
+    
+    grid-column: 2;
+}
+
+#lang_btn {
+    /*font-size: 20px;*/
+    font-family: 'Amatic SC', san-serif;
+    
+    grid-column: 3;
+    justify-self: self-end;
+    margin-right: 10px;
+
+}
+
+#contact {
+    grid-column: 2;
+}
+
 
 
 
